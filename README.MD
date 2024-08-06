@@ -84,13 +84,7 @@ The code is open source. you are allowed to resell or provide this bot as a serv
 
 This is a demo version with unlimited execution of trades.
 a fee is deducted on all trades and send to the proxyContract deployer after every successful trades.
-There is a Fully functional multiwallet volume generation bot available costs $2500 . no fee deductions. every trade will have refunded amount after gas fees.
 
-#### How to purchase Full version, what are the process?
-
-Contact @solapriv on TG or email us at support@volume.li . we will setup the bot for you . payments are acceptable in Bitcoin, Solana , BNB , USDT. costs $2500
-
-#### Want to become a reseller ? contact on TG @solapriv . get discounted rates upto 70%
 
 ## Demo
 
