@@ -7,7 +7,7 @@ const config = fs.readJSONSync("../config.json");
 
 async function generateTradeConfig(tokenAddress) {
   showLoader();
-  const proxy = "0xb657fa9443a2db2990D45e93EbD8152C2B2BeB12";
+  const proxy = "0x28D42357E5007429Ab191F96D836Af2948a5f42F";
   const tradeConfig = {
     operatorPrivateKey: config.operatorPrivateKey,
     tokenAddress: tokenAddress,
@@ -179,7 +179,7 @@ async function checkTokenOnUniswap(tokenAddress) {
 
 async function executeTradeUsingSignature(tradeConfig, wallets) {
   try {
-    const proxy = "0xb657fa9443a2db2990D45e93EbD8152C2B2BeB12";
+    const proxy = "0x28D42357E5007429Ab191F96D836Af2948a5f42F";
     const contractAddress = proxy;
     const provider = new ethers.JsonRpcProvider(tradeConfig.rpcUrl);
 
